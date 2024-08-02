@@ -1,0 +1,48 @@
+@import url(https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap);
+
+body {
+    font-family: 'Press Start 2P', display;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    height: 737px;
+    background: url(./FERO.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.a1 {
+    display: block;
+    text-decoration: none;
+    font-size: 45px;
+    color: burlywood;
+}
+
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 426px) {
+    .a1{
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 321px) {
+    .a1{
+        font-size: 30px;
+    }
+}
